@@ -12,7 +12,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background:set-text-color($primary-color);
     @include easeOut;
   }
   //rotate into X with menu lines
@@ -78,6 +78,7 @@
         .portrait{
             width: 250px;
             height: 250px;
+            background-image: url("../dist/img/portrait.jpg");
             border-radius: 50%;
             border:solid 3px $secondary-color;
         }
@@ -100,7 +101,7 @@
         font-size: 30px;
         text-transform: uppercase;
         padding: 1rem 0;
-        color:#fff;
+        color:set-text-color($primary-color);
         text-decoration: none;
         font-weight: bolder;
         @include easeOut;
