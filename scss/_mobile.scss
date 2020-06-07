@@ -57,6 +57,23 @@
  .projects{
     grid-template-columns: repeat(2,1fr);
 }
+#contact{
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .boxes{
+  
+        .box{
+          display: grid;
+          font-size: 1.5rem;
+     }
+     }
+}
+
+
 
 }
 //smartphones

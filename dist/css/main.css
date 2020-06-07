@@ -187,6 +187,24 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes .box {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes .box:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      .boxes .box:hover span {
+        color: #000; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -247,7 +265,14 @@ main {
     grid-template-areas: 'bioimg' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  #contact h1 {
+    font-size: 3rem; }
+  #contact h2 {
+    font-size: 1.5rem; }
+  #contact .boxes .box {
+    display: grid;
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 500px) {
   main {
